@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("CI/CD Demo Application Running");
+  res.send("git checkout -b feature/update-message");
 });
 
 app.get("/health", (req, res) => {
